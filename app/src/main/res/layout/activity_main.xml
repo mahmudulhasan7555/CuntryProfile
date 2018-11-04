@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#779379"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <AnalogClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+
+            android:id="@+id/bangladeshId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bangladesh"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/bangladesh_icon"
+            android:background="#a3a5cc"
+            android:layout_marginBottom="10dp"
+            />
+
+        <Button
+            android:id="@+id/india_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/india_icon"
+            android:text="@string/india"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:background="#a3a5cc"/>
+
+        <Button
+            android:id="@+id/brazil_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/brizil_iconn"
+            android:text="@string/brazil"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:background="#a3a5cc"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
